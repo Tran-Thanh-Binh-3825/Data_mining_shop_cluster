@@ -38,15 +38,6 @@ Mục tiêu là khai thác các **association rules** (Apriori / FP-Growth) đ�
 - Nhiễu
 - Không gian đặc trưng quá lớn
 
-### 3.3 Ví dụ các luật tiêu biểu
-
-| Antecedents | Consequents | Support | Confidence | Lift |
-|------------|------------|---------|------------|------|
-| {A} | {B} | 0.021 | 0.42 | 2.1 |
-| {C} | {D} | 0.018 | 0.38 | 1.9 |
-| {E, F} | {G} | 0.012 | 0.55 | 2.5 |
-
-(Các luật trên được trích từ tập luật đầu vào dùng cho phân cụm)
 
 ---
 
@@ -110,15 +101,8 @@ Biểu đồ giúp đánh giá trực quan chất lượng phân cụm.
 - Trung bình Recency – Frequency – Monetary
 - Các luật mua kèm được kích hoạt nhiều nhất trong cụm
 
-### 7.2 Đặt tên & Persona (ví dụ)
 
-| Cluster | Tên (EN) | Tên (VI) |
-|-------|----------|----------|
-| 0 | High-Value Bundlers | Khách mua combo giá trị cao |
-| 1 | Dormant Customers | Khách hàng ngủ đông |
-| 2 | Category-focused Buyers | Khách trung thành theo danh mục |
-
-### 7.3 Chiến lược marketing
+### 7.2 Chiến lược marketing
 - **High-Value Bundlers**: bundle sản phẩm, upsell
 - **Dormant Customers**: win-back campaign, voucher quay lại
 - **Category-focused Buyers**: cross-sell trong cùng danh mục
